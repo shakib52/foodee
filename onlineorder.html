@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Hello, world!</title>
+</head>
+<style>
+    body {
+        background: url(images/steak.jpg) no-repeat;
+        font-family: sans-serif;
+        color: #2bd2d2;
+    }
+
+    .divider-text {
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+
+    }
+
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .btn-facebook {
+        background-color: #405D9D;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-twitter {
+        background-color: #42AEEC;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .log {
+        width: 50%;
+    }
+
+    .p7c {
+        margin: auto;
+    }
+
+    .form-control {
+        padding-right: 100px;
+    }
+
+    .hi4 {
+        text-decoration: none;
+    }
+
+    .panel-title {
+/*        display: inline;*/
+        
+    }
+
+    .checkbox.pull-right {
+        margin: 0;
+    }
+
+    .pl-ziro {
+        padding-left: 0px;
+    }
+    .panel-body{
+        padding: 0px;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 100 !important;
+    }
+    #expityMonth{
+       
+    padding-right: 2px;
+    }
+    #expityYear{
+        padding-right: 2px;
+    }
+ 
+    .pay{
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-6 log">
+
+                <div class="card bg-light">
+                    <article class="card-body mx-auto" style="max-width: 400px;">
+                        <h4 class="card-title mt-3 text-center">Online Order Now</h4>
+                        <p class="text-center">Please Enter Your Payment Details </p>
+
+                        <p class="divider-text">
+                            <span class="bg-light"></span>
+                        </p>
+                        <form>
+                            <div class="form-group input-group">
+                                <p class="p7c">Full Name</p>
+                                <input name="" class="form-control" placeholder="Enter name" type="text">
+
+                            </div> <!-- form-group// -->
+                            <div class="form-group input-group">
+                                <p class="p7c">Email address</p>
+                                <input name="" class="form-control" placeholder="example@gmail.com" type="email">
+                            </div> <!-- form-group// -->
+                            <div class="form-group input-group">
+                                <p class="p7c">Phone number</p>
+                                <input name="" class="form-control" placeholder="+880XXXXXXXXXX" type="text">
+                            </div> <!-- form-group// -->
+
+                            <div class="form-group input-group">
+                                <p class="p7c">Address</p>
+                                <input class="form-control" placeholder="address" type="text">
+                            </div> <!-- form-group// -->
+                            
+                            <div class="form-group input-group">
+                                   <div class="panel-body">
+                                                <form role="form">
+                                                    <div class="form-group">
+                                                        <p for="cardNumber" class="p7c">
+                                                            CARD NUMBER</p>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number" required autofocus />
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-7 col-md-7">
+                                                            <div class="form-group " >
+                                                                <p for="expityMonth" class=" p7c">
+                                                                    AMOUNT</p>
+                                                                <div class="col-xs-12 col-lg-12 pl-ziro">
+                                                                    <input type="number" class="form-control" id="expityMonth" placeholder="Taka" required />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-5 col-md-5 pull-right">
+                                                            <div class="form-group">
+                                                                <p for="cvCode" class="p7c">
+                                                                    CV CODE</p>
+                                                                <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <br />
+                                        <a href="#" class="btn btn-success btn-lg btn-block pay" role="button">Pay</a>
+                            </div> <!-- form-group// -->
+                            <!--end-->
+
+
+                        </form>
+                    </article>
+                </div> <!-- card.// -->
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body></html>

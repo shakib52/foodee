@@ -1,2 +1,4 @@
-# foodee
-foode is the webbase online resturent managment system
+Restaurant
+==========
+
+A template for Restaurant business
